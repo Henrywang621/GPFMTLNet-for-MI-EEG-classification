@@ -29,10 +29,6 @@ Epochs= args.numepochs
 Patience = args.Patience4ES
 
 save_path = '/home/henrywang/testEEGModels/BCIIV2a/data/'
-# random_seeds = [72, 66, 18, 46, 11]
-# random_seeds = [72, 66, 42, 46, 11]
-# random_seeds = [42, 16, 20, 7, 95]
-# random_seeds = [13, 15, 9, 6, 23]
 random_seeds = [72, 66, 13, 46, 15]
 
 # results = np.zeros((len(subjects), len(folds) + 1, 4))
